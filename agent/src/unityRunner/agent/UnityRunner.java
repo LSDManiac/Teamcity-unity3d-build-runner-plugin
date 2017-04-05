@@ -45,23 +45,29 @@ public class UnityRunner {
     List<String> getArgs() {
         List<String> args = new ArrayList<String>();
 
-        if (configuration.batchMode)
-            args.add("-batchmode");
-
-        if (configuration.noGraphics)
-            args.add("-nographics");
-
-        if (configuration.quit)
-            args.add("-quit");
-
-        if (!configuration.buildPlayer.equals("")) {
-            args.add(String.format("-%s", configuration.buildPlayer));
-            args.add(String.format("%s", configuration.buildPath));
-        }
+        args.add("-batchmode");
+        args.add("-quit");
 
         if (!configuration.projectPath.equals("")) {
             args.add("-projectPath");
             args.add(configuration.projectPath);
+        }
+
+        if(!configuration.assetIp.equals("")
+                && !configuration.assetProject.equals("")
+                && !configuration.assetLogin.equals("")
+                && !configuration.assetPassword.equals("")){
+
+            args.add("-assetServerUpdate");
+            args.add(configuration.assetIp);
+            args.add(configuration.assetProject);
+            args.add(configuration.assetLogin);
+            args.add(configuration.assetPassword);
+        }
+
+        if (!configuration.buildPlayer.equals("")) {
+            args.add("-executeMethod");
+            args.add(configuration.buildPlayer);
         }
 
         if (!configuration.executeMethod.equals("")) {
@@ -84,21 +90,7 @@ public class UnityRunner {
      * start the unity runner
      */
     public void start() {
-//
-//        logMessage("[Starting UnityRunner]");
-//
-//        Thread runnerThread = new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                tailLogFile();
-//            }
-//        });
-//        runnerThread.start();
         logMessage("[Unity runner is started, but waiting until end to cat log file]");
-
-        if (configuration.clearBefore) {
-            clearBefore();
-        }
     }
 
     /**
@@ -192,17 +184,6 @@ public class UnityRunner {
 
     }
 
-
-    /**
-     * cleanup after runner
-     */
-    public void optionallyCleanupAfter() {
-        if (configuration.cleanAfter) {
-            cleanAfter();
-        }
-    }
-
-
     private void initialise() {
         deleteLogFile(configuration.getInterestedLogPath());
     }
@@ -223,40 +204,6 @@ public class UnityRunner {
     void logMessage(String message) {
         logParser.log(message);
     }
-
-    /**
-     * clear the output directory before running
-     */
-    private void clearBefore() {
-        File outputDir = new File(configuration.buildPath);
-
-        try {
-            if (outputDir.exists()) {
-                logMessage("Removing output directory: " + outputDir.getPath());
-                if (outputDir.isDirectory()) {
-                    // only delete directory if it is a directory!
-                    FileUtils.deleteDirectory(outputDir);
-                } else if (outputDir.isFile()) {
-                    outputDir.delete();
-                }
-            }
-
-            logMessage("Creating output directory: " + outputDir.getPath());
-            FileUtils.forceMkdir(outputDir);
-
-        } catch (IOException e) {
-            logParser.logException(e);
-        }
-
-    }
-
-    /**
-     * remove .svn and .meta files from the output directory after running
-     */
-    private void cleanAfter() {
-        new OutputDirectoryCleaner(logParser).clean(new File(configuration.buildPath));
-    }
-
 }
 
 

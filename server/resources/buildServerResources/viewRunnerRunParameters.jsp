@@ -19,23 +19,6 @@
 </div>
 
 <div class="parameter">
-  <c:choose>
-    <c:when test="${not empty propertiesBean.properties['teamcity.build.workingDir']}">
-      Working Directory: <strong><props:displayValue name="teamcity.build.workingDir" /></strong>
-    </c:when>
-  </c:choose>
-</div>
-
-
-<div class="parameter">
-  Batch Mode: <strong><props:displayValue name="argument.batch_mode" /></strong>
-</div>
-
-<div class="parameter">
-  No Graphics: <strong><props:displayValue name="argument.no_graphics" /></strong>
-</div>
-
-<div class="parameter">
   Project Path: <strong><props:displayValue name="argument.project_path" /></strong>
 </div>
 
@@ -48,11 +31,27 @@
 </div>
 
 <div class="parameter">
-  Warnings As Errors: <strong><props:displayValue name="argument.warnings_as_errors" /></strong>
+  Build stage: <strong><props:displayValue name="argument.build_stage" /></strong>
 </div>
 
 <div class="parameter">
-  Build Path: <strong><props:displayValue name="argument.build_path" /></strong>
+  Asset server ip: <strong><props:displayValue name="argument.asset_server_ip" /></strong>
+</div>
+
+<div class="parameter">
+  Asset server proj: <strong><props:displayValue name="argument.asset_server_project" /></strong>
+</div>
+
+<div class="parameter">
+  Asset server user: <strong><props:displayValue name="argument.asset_server_user" /></strong>
+</div>
+
+<div class="parameter">
+  Asset server pass: <strong><props:displayValue name="argument.asset_server_password" /></strong>
+</div>
+
+<div class="parameter">
+  Warnings As Errors: <strong><props:displayValue name="argument.warnings_as_errors" /></strong>
 </div>
 
 <div class="parameter">
@@ -67,20 +66,6 @@
   </c:choose>
 </div>
 
-<div class="parameter">
-  Quit after build: <strong><props:displayValue name="argument.quit" /></strong>
-</div>
-
-
-
-<div class="parameter">
-  Clear Output Before: <strong><props:displayValue name="argument.clear_output_before" /></strong>
-</div>
-
-
-<div class="parameter">
-  Clean Output After: <strong><props:displayValue name="argument.clean_output_after" /></strong>
-</div>
 
 <div class="parameter">
   <c:choose>

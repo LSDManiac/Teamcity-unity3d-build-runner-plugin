@@ -27,18 +27,19 @@ public class UnityRunnerConfiguration {
     }
 
     final String unityExecutablePath;
-    final boolean quit;
-    final boolean batchMode;
-    final boolean noGraphics;
-    final boolean clearBefore;
-    final boolean cleanAfter;
     final boolean useCleanedLog;
     final boolean warningsAsErrors;
     final String lineListPath;
     final String projectPath;
     final String executeMethod;
+
+    final String assetIp;
+    final String assetProject;
+    final String assetLogin;
+    final String assetPassword;
+
     final String buildPlayer;
-    final String buildPath;
+    final String buildStage;
     final String extraOpts;
     final String unityVersion;
     final String detectedUnityVersionPath;
@@ -67,9 +68,6 @@ public class UnityRunnerConfiguration {
                                     AgentRunningBuild agentRunningBuild) {
 
         platform = detectPlatform(agentConfiguration);
-        quit = Parameters.getBoolean(runnerParameters, PluginConstants.PROPERTY_QUIT);
-        batchMode = Parameters.getBoolean(runnerParameters, PluginConstants.PROPERTY_BATCH_MODE);
-        noGraphics = Parameters.getBoolean(runnerParameters, PluginConstants.PROPERTY_NO_GRAPHICS);
         projectPath = FilenameUtils.separatorsToSystem(
                 Parameters.getString(runnerParameters, PluginConstants.PROPERTY_PROJECT_PATH));
 
@@ -91,14 +89,17 @@ public class UnityRunnerConfiguration {
         }
 
         lineListPath = FilenameUtils.separatorsToSystem(Parameters.getString(runnerParameters, PluginConstants.PROPERTY_LINELIST_PATH));
+
+        assetIp = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_ASSET_SERVER_IP);
+        assetProject = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_ASSET_SERVER_PROJECT);
+        assetLogin = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_ASSET_SERVER_USER);
+        assetPassword = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_ASSET_SERVER_PASSWORD);
+
         executeMethod = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_EXECUTE_METHOD);
         buildPlayer = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_BUILD_PLAYER);
-        buildPath = FilenameUtils.separatorsToSystem(
-                Parameters.getString(runnerParameters, PluginConstants.PROPERTY_BUILD_PATH));
+        buildStage = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_BUILD_STAGE);
         extraOpts = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_BUILD_EXTRA);
 
-        clearBefore = Parameters.getBoolean(runnerParameters, PluginConstants.PROPERTY_CLEAR_OUTPUT_BEFORE);
-        cleanAfter = Parameters.getBoolean(runnerParameters, PluginConstants.PROPERTY_CLEAN_OUTPUT_AFTER);
         warningsAsErrors = Parameters.getBoolean(runnerParameters, PluginConstants.PROPERTY_WARNINGS_AS_ERRORS);
 
         // set cleaned log path to %temp%/cleaned-%teamcity.build.id%.log

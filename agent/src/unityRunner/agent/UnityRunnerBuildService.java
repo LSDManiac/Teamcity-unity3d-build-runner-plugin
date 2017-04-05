@@ -50,6 +50,5 @@ public class UnityRunnerBuildService extends BuildServiceAdapter {
 
     @Override
     public void afterProcessSuccessfullyFinished() {
-        runner.optionallyCleanupAfter();
     }
 }

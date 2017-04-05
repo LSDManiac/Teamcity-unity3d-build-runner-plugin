@@ -64,7 +64,6 @@ public class UnityRunnerRunType extends RunType {
         describeParam("Project", parameters.get(PluginConstants.PROPERTY_PROJECT_PATH), sb);
         describeParam("Error / Warning Line List", parameters.get(PluginConstants.PROPERTY_LINELIST_PATH), sb);
         describeParam("Build Player", parameters.get(PluginConstants.PROPERTY_BUILD_PLAYER), sb);
-        describeParam("Output directory", parameters.get(PluginConstants.PROPERTY_BUILD_PATH), sb);
         describeParam("Extra options", parameters.get(PluginConstants.PROPERTY_BUILD_EXTRA), sb);
         describeParam("Execute Method", parameters.get(PluginConstants.PROPERTY_EXECUTE_METHOD), sb);
 
@@ -95,23 +94,14 @@ public class UnityRunnerRunType extends RunType {
 
             private Set<InvalidProperty> invalidBuildTarget()
             {
-                return Collections.singleton(new InvalidProperty(PluginConstants.PROPERTY_BUILD_PATH,
-                                                                "Please set build path."));
+                return Collections.singleton(new InvalidProperty(PluginConstants.PROPERTY_BUILD_PLAYER,
+                                                                "Please set build player."));
             }
 
             private boolean noBuildTarget(Map<String, String> properties)
             {
-                if(properties.containsKey(PluginConstants.PROPERTY_BUILD_PLAYER) &&
-                        !properties.get(PluginConstants.PROPERTY_BUILD_PLAYER).equals(""))
-                {
-                    if(!properties.containsKey(PluginConstants.PROPERTY_BUILD_PATH) ||
-                       properties.get(PluginConstants.PROPERTY_BUILD_PATH).equals(""))
-                    {
-                        return true;
-                    }
-                }
-
-                return false;
+                return properties.containsKey(PluginConstants.PROPERTY_BUILD_PLAYER) &&
+                        !properties.get(PluginConstants.PROPERTY_BUILD_PLAYER).equals("");
             }
         };
     }
@@ -134,10 +124,6 @@ public class UnityRunnerRunType extends RunType {
     public Map<String, String> getDefaultRunnerProperties() {
         Map<String,String> defaults = new HashMap<String, String>();
 
-        defaults.put(PluginConstants.PROPERTY_QUIT, "true");
-        defaults.put(PluginConstants.PROPERTY_BATCH_MODE, "true");
-        defaults.put(PluginConstants.PROPERTY_CLEAR_OUTPUT_BEFORE, "true");
-        defaults.put(PluginConstants.PROPERTY_CLEAN_OUTPUT_AFTER, "true");
         defaults.put(PluginConstants.PROPERTY_WARNINGS_AS_ERRORS, "true");
         defaults.put(PluginConstants.PROPERTY_LOG_IGNORE, "false");
 

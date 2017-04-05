@@ -34,46 +34,6 @@
 
 <tr>
     <th>
-        <label for="teamcity.build.workingDir">Working Directory: </label>
-    </th>
-    <td>
-        <props:textProperty name="teamcity.build.workingDir" style="width:32em;"/>
-        <span class="error" id="error_teamcity.build.workingDir"></span>
-        <span class="smallNote">
-             Optional, specify if differs from the checkout directory.
-        </span>
-    </td>
-</tr>
-
-<tr>
-    <th>
-        <label for="argument.batch_mode">Batch mode: </label>
-    </th>
-    <td>
-         <props:checkboxProperty name="argument.batch_mode"/>
-         <span class="error" id="error_argument.batch_mode"></span>
-         <span class="smallNote">
-             Run Unity in batch mode.
-         </span>
-    </td>
-</tr>
-
-<tr>
-    <th>
-        <label for="argument.no_graphics">No graphics: </label>
-    </th>
-    <td>
-        <props:checkboxProperty name="argument.no_graphics"/>
-        <span class="error" id="error_argument.no_graphics"></span>
-        <span class="smallNote">
-             When running in batch mode, do not initialize graphics device at all.
-             This makes it possible to run your automated workflows on machines that don't even have a GPU.
-        </span>
-    </td>
-</tr>
-
-<tr>
-    <th>
         <label for="argument.project_path">Project path: </label>
     </th>
     <td>
@@ -100,16 +60,71 @@
 
 <props:selectSectionProperty name="argument.build_player" title="Build player:">
     <props:selectSectionPropertyContent value="" caption="<Don't build player>"/>
-    <props:selectSectionPropertyContent value="buildWindowsPlayer" caption="Windows (32-bit) Player"/>
-    <props:selectSectionPropertyContent value="buildWindows64Player" caption="Windows (64-bit) Player"/>
-    <props:selectSectionPropertyContent value="buildOSXPlayer" caption="OSX (32-bit) Player"/>
-    <props:selectSectionPropertyContent value="buildOSX64Player" caption="OSX (64-bit) Player"/>
-    <props:selectSectionPropertyContent value="buildOSXUniversalPlayer" caption="OSX (Universal) Player"/>
-    <props:selectSectionPropertyContent value="buildLinux32Player" caption="Linux (32-bit) Player"/>
-    <props:selectSectionPropertyContent value="buildLinux64Player" caption="Linux (64-bit) Player"/>
-    <props:selectSectionPropertyContent value="buildLinuxUniversalPlayer" caption="Linux (Universal) Player"/>
-    <props:selectSectionPropertyContent value="buildWebPlayer" caption="Web Player" />
+    <props:selectSectionPropertyContent value="BuildScript.BuildAndroid" caption="Android"/>
+
+    <props:selectSectionPropertyContent value="BuildScript.BuildOSXUni" caption="OSX (Universal) Player"/>
+
+    <props:selectSectionPropertyContent value="BuildScript.BuildWebPlayer" caption="Web Player" />
+    <props:selectSectionPropertyContent value="BuildScript.BuildWebGL" caption="Web GL" />
 </props:selectSectionProperty>
+
+<props:selectSectionProperty name="argument.build_stage" title="Build stage:">
+    <props:selectSectionPropertyContent value="" caption="Dev"/>
+    <props:selectSectionPropertyContent value="Stage" caption="Stage"/>
+    <props:selectSectionPropertyContent value="Release" caption="Release"/>
+</props:selectSectionProperty>
+
+<tr>
+    <th>
+        <label for="argument.asset_server_ip">Asset server ip: </label>
+    </th>
+    <td>
+        <props:textProperty name="argument.asset_server_ip" style="width:32em;"/>
+        <span class="error" id="error_argument.asset_server_ip"></span>
+        <span class="smallNote">
+             ip
+        </span>
+    </td>
+</tr>
+
+<tr>
+    <th>
+        <label for="argument.asset_server_project">Asset server project: </label>
+    </th>
+    <td>
+        <props:textProperty name="argument.asset_server_project" style="width:32em;"/>
+        <span class="error" id="error_argument.asset_server_project"></span>
+        <span class="smallNote">
+             project
+        </span>
+    </td>
+</tr>
+
+<tr>
+    <th>
+        <label for="argument.asset_server_user">Asset server user: </label>
+    </th>
+    <td>
+        <props:textProperty name="argument.asset_server_user" style="width:32em;"/>
+        <span class="error" id="error_argument.asset_server_user"></span>
+        <span class="smallNote">
+             user
+        </span>
+    </td>
+</tr>
+
+<tr>
+    <th>
+        <label for="argument.asset_server_password">Asset server password: </label>
+    </th>
+    <td>
+        <props:textProperty name="argument.asset_server_password" style="width:32em;"/>
+        <span class="error" id="error_argument.asset_server_password"></span>
+        <span class="smallNote">
+             password
+        </span>
+    </td>
+</tr>
 
 <tr>
     <th>
@@ -122,50 +137,6 @@
         </span>
     </td>
 <tr>
-
-<tr>
-    <th>
-        <label for="argument.build_path">Build path: </label>
-    </th>
-    <td>
-        <props:textProperty name="argument.build_path" style="width:32em;"/>
-        <span class="error" id="error_argument.build_path"></span>
-        <span class="smallNote">
-             Build output path.
-        </span>
-    </td>
-</tr>
-
-
-
-
-<tr>
-    <th>
-        <label for="argument.clear_output_before">Clear output before: </label>
-    </th>
-    <td>
-         <props:checkboxProperty name="argument.clear_output_before"/>
-         <span class="error" id="error_argument.clear_output_before"></span>
-         <span class="smallNote">
-             Clear output directory before running build.
-         </span>
-    </td>
-</tr>
-
-
-      
-<tr>
-    <th>
-        <label for="argument.clean_output_after">Clean output after: </label>
-    </th>
-    <td>
-         <props:checkboxProperty name="argument.clean_output_after"/>
-         <span class="error" id="error_argument.clean_output_after"></span>
-         <span class="smallNote">
-             Clean output directory of .meta and .svn files after running build.
-         </span>
-    </td>
-</tr>
 
 <tr>
     <th>
@@ -189,19 +160,6 @@
         <span class="error" id="error_argument.execute_method"></span>
         <span class="smallNote">
              Execute the static method as soon as Unity is started and the project folder has been opened.
-        </span>
-    </td>
-</tr>
-
-<tr>
-    <th>
-        <label for="argument.quit">Quit: </label>
-    </th>
-    <td>
-        <props:checkboxProperty name="argument.quit"/>
-        <span class="error" id="error_argument.quit"></span>
-        <span class="smallNote">
-             Quit Unity cleanly upon finishing execution of other command line arguments.
         </span>
     </td>
 </tr>
