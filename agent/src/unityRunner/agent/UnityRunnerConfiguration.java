@@ -203,10 +203,14 @@ public class UnityRunnerConfiguration {
                 // on Windows we have potentially two locations for 32 and 64 bit apps
                 addLocation(System.getenv("ProgramFiles"), locations);
                 addLocation(System.getenv("%programfiles% (x86)"), locations);
+                addLocation(System.getenv("SystemDrive") + "\\Program Files", locations);
+                addLocation(System.getenv("%programfiles%"), locations);
+                addLocation(System.getenv("%programfiles(x86)%"), locations);
 
             case Mac:
                 // on Mac there is only one location for apps.
                 addLocation("/Applications", locations);
+                addLocation("/Applications/Unity", locations);
         }
 
         return locations;

@@ -70,11 +70,6 @@ public class UnityRunner {
             args.add(configuration.buildPlayer + configuration.buildStage);
         }
 
-        if (!configuration.executeMethod.equals("")) {
-            args.add("-executeMethod");
-            args.add(configuration.executeMethod);
-        }
-
         if (configuration.useCleanedLog) {
             args.add("-cleanedLogFile");
             args.add(configuration.getCleanedLogPath());

@@ -65,7 +65,6 @@ public class UnityRunnerRunType extends RunType {
         describeParam("Error / Warning Line List", parameters.get(PluginConstants.PROPERTY_LINELIST_PATH), sb);
         describeParam("Build Player", parameters.get(PluginConstants.PROPERTY_BUILD_PLAYER), sb);
         describeParam("Extra options", parameters.get(PluginConstants.PROPERTY_BUILD_EXTRA), sb);
-        describeParam("Execute Method", parameters.get(PluginConstants.PROPERTY_EXECUTE_METHOD), sb);
 
         String logIgnore = parameters.get(PluginConstants.PROPERTY_LOG_IGNORE);
         if (logIgnore != null && "true".equals(logIgnore)) {
@@ -100,8 +99,8 @@ public class UnityRunnerRunType extends RunType {
 
             private boolean noBuildTarget(Map<String, String> properties)
             {
-                return properties.containsKey(PluginConstants.PROPERTY_BUILD_PLAYER) &&
-                        !properties.get(PluginConstants.PROPERTY_BUILD_PLAYER).equals("");
+                return !(properties.containsKey(PluginConstants.PROPERTY_BUILD_PLAYER) &&
+                        !properties.get(PluginConstants.PROPERTY_BUILD_PLAYER).equals(""));
             }
         };
     }
