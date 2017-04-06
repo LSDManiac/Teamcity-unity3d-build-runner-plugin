@@ -60,15 +60,6 @@
 
 <div class="parameter">
   <c:choose>
-    <c:when test="${not empty propertiesBean.properties['argument.execute_method']}">
-      Execute Method: <strong><props:displayValue name="argument.execute_method" /></strong>
-    </c:when>
-  </c:choose>
-</div>
-
-
-<div class="parameter">
-  <c:choose>
     <c:when test="${propertiesBean.properties['argument.log_ignore']}">
       Ignore Errors Before: <strong><props:displayValue name="argument.log_ignore_text" /></strong>
     </c:when>

@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="055ba325-7ef8-4b7e-bc80-c694b6730240" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java" afterPath="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerBuildService.java" afterPath="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerBuildService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerConfiguration.java" afterPath="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerConfiguration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/unityRunner/common/PluginConstants.java" afterPath="$PROJECT_DIR$/common/src/unityRunner/common/PluginConstants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp" afterPath="$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/resources/buildServerResources/viewRunnerRunParameters.jsp" afterPath="$PROJECT_DIR$/server/resources/buildServerResources/viewRunnerRunParameters.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/unityRunner/server/UnityRunnerRunType.java" afterPath="$PROJECT_DIR$/server/src/unityRunner/server/UnityRunnerRunType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unity_runner.iws" afterPath="$PROJECT_DIR$/unity_runner.iws" />
     </list>
     <ignored path="unity_runner.iws" />
@@ -33,18 +31,9 @@
       <file leaf-file-name="UnityRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-              <folding>
-                <element signature="e#1202#1210#0" expanded="true" />
-                <element signature="e#2501#2502#0" expanded="true" />
-                <element signature="e#2595#2596#0" expanded="true" />
-                <element signature="e#3804#3812#0" expanded="true" />
-                <element signature="e#5442#5443#0" expanded="true" />
-                <element signature="e#5509#5510#0" expanded="true" />
-                <element signature="e#5848#5849#0" expanded="true" />
-                <element signature="e#5886#5887#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,21 +41,18 @@
       <file leaf-file-name="UnityRunnerBuildService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerBuildService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="77" lean-forward="false" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
-              <folding>
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnityRunnerConfiguration.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UnityRunnerConfiguration.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="95" column="21" lean-forward="false" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
+            <state relative-caret-position="408">
+              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,8 +61,8 @@
       <file leaf-file-name="UnityRunnerRunType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/unityRunner/server/UnityRunnerRunType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+            <state relative-caret-position="1768">
+              <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,7 +71,7 @@
       <file leaf-file-name="UnityRunnerBuildServiceFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerBuildServiceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="2890">
               <caret line="203" column="27" lean-forward="false" selection-start-line="203" selection-start-column="27" selection-end-line="203" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+            <state relative-caret-position="350">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,8 +93,8 @@
       <file leaf-file-name="PluginConstants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/unityRunner/common/PluginConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="81" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="81" />
+            <state relative-caret-position="153">
+              <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -117,8 +103,8 @@
       <file leaf-file-name="editRunnerRunParameters.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="122" column="32" lean-forward="true" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
+            <state relative-caret-position="305">
+              <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,8 +113,8 @@
       <file leaf-file-name="viewRunnerRunParameters.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/resources/buildServerResources/viewRunnerRunParameters.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="49" column="85" lean-forward="false" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="85" />
+            <state relative-caret-position="305">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -145,7 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>unityrunner-server.module.classpath</find>
       <find>unityrunner-agent.output.dir</find>
       <find>XMLPropertyListConfiguration</find>
       <find>buildWindowsPlayer</find>
@@ -175,6 +160,7 @@
       <find>batch</find>
       <find>asset_server_ip</find>
       <find>lineListPath</find>
+      <find>argument.execute_method</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,12 +184,12 @@
         <option value="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerBuildServiceFactory.java" />
         <option value="$PROJECT_DIR$/unityrunner.xml" />
         <option value="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerBuildService.java" />
-        <option value="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java" />
-        <option value="$PROJECT_DIR$/common/src/unityRunner/common/PluginConstants.java" />
-        <option value="$PROJECT_DIR$/server/resources/buildServerResources/viewRunnerRunParameters.jsp" />
-        <option value="$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp" />
-        <option value="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerConfiguration.java" />
         <option value="$PROJECT_DIR$/server/src/unityRunner/server/UnityRunnerRunType.java" />
+        <option value="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java" />
+        <option value="$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp" />
+        <option value="$PROJECT_DIR$/server/resources/buildServerResources/viewRunnerRunParameters.jsp" />
+        <option value="$PROJECT_DIR$/common/src/unityRunner/common/PluginConstants.java" />
+        <option value="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerConfiguration.java" />
       </list>
     </option>
   </component>
@@ -698,33 +684,33 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.4936034" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20693392" sideWeight="0.4936034" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4946695" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4946695" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24733475" sideWeight="0.5105008" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.50403875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2340195" sideWeight="0.4914712" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4942717" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24733475" sideWeight="0.48949918" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49596122" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24733475" sideWeight="0.4893918" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24733475" sideWeight="0.4893918" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20693392" sideWeight="0.4936034" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -820,16 +806,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="35" column="89" lean-forward="false" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="89" />
-          <folding>
-            <element signature="e#1202#1210#0" expanded="true" />
-            <element signature="e#2501#2502#0" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
-            <element signature="e#3804#3812#0" expanded="true" />
-            <element signature="e#5442#5443#0" expanded="true" />
-            <element signature="e#5509#5510#0" expanded="true" />
-            <element signature="e#5848#5849#0" expanded="true" />
-            <element signature="e#5886#5887#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -884,16 +861,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#1202#1210#0" expanded="true" />
-            <element signature="e#2501#2502#0" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
-            <element signature="e#3804#3812#0" expanded="true" />
-            <element signature="e#5442#5443#0" expanded="true" />
-            <element signature="e#5509#5510#0" expanded="true" />
-            <element signature="e#5848#5849#0" expanded="true" />
-            <element signature="e#5886#5887#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -919,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,10 +910,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -961,16 +925,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="227" column="59" lean-forward="false" selection-start-line="227" selection-start-column="59" selection-end-line="227" selection-end-column="59" />
-          <folding>
-            <element signature="e#1202#1210#0" expanded="true" />
-            <element signature="e#2501#2502#0" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
-            <element signature="e#3804#3812#0" expanded="true" />
-            <element signature="e#5442#5443#0" expanded="true" />
-            <element signature="e#5509#5510#0" expanded="true" />
-            <element signature="e#5848#5849#0" expanded="true" />
-            <element signature="e#5886#5887#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,10 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding>
-            <element signature="e#2164#2165#0" expanded="false" />
-            <element signature="e#2218#2219#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,7 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,7 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,85 +1060,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-          <folding>
-            <element signature="e#1202#1210#0" expanded="true" />
-            <element signature="e#2501#2502#0" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
-            <element signature="e#3804#3812#0" expanded="true" />
-            <element signature="e#5442#5443#0" expanded="true" />
-            <element signature="e#5509#5510#0" expanded="true" />
-            <element signature="e#5848#5849#0" expanded="true" />
-            <element signature="e#5886#5887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerBuildService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="77" lean-forward="false" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
-          <folding>
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$TeamCityDistribution$/webapps/ROOT/WEB-INF/lib/commons-io-1.3.2.jar!/org/apache/commons/io/FilenameUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="154" column="25" lean-forward="false" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/unityRunner/common/PluginConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="81" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/resources/buildServerResources/viewRunnerRunParameters.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="49" column="85" lean-forward="false" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="122" column="32" lean-forward="true" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="95" column="21" lean-forward="false" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/unityRunner/server/UnityRunnerRunType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        <state relative-caret-position="1768">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerBuildServiceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="2890">
           <caret line="203" column="27" lean-forward="false" selection-start-line="203" selection-start-column="27" selection-end-line="203" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1200,8 +1087,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+        <state relative-caret-position="350">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerBuildService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/resources/buildServerResources/viewRunnerRunParameters.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/unityRunner/common/PluginConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
       </provider>

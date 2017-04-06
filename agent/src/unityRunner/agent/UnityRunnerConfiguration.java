@@ -31,7 +31,6 @@ public class UnityRunnerConfiguration {
     final boolean warningsAsErrors;
     final String lineListPath;
     final String projectPath;
-    final String executeMethod;
 
     final String assetIp;
     final String assetProject;
@@ -95,7 +94,6 @@ public class UnityRunnerConfiguration {
         assetLogin = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_ASSET_SERVER_USER);
         assetPassword = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_ASSET_SERVER_PASSWORD);
 
-        executeMethod = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_EXECUTE_METHOD);
         buildPlayer = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_BUILD_PLAYER);
         buildStage = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_BUILD_STAGE);
         extraOpts = Parameters.getString(runnerParameters, PluginConstants.PROPERTY_BUILD_EXTRA);

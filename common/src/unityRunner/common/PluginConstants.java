@@ -11,7 +11,6 @@ public interface PluginConstants {
     final String RUNNER_DESCRIPTION = "Unity runner";
 
     final String PROPERTY_UNITY_EXECUTABLE_PATH = "unity.executable";
-    final String PROPERTY_EXECUTE_METHOD = "argument.execute_method";
     final String PROPERTY_PROJECT_PATH = "argument.project_path";
     final String PROPERTY_LINELIST_PATH = "argument.line_list_path";
     final String PROPERTY_BUILD_PLAYER = "argument.build_player";

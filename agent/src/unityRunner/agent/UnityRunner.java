@@ -67,7 +67,7 @@ public class UnityRunner {
 
         if (!configuration.buildPlayer.equals("")) {
             args.add("-executeMethod");
-            args.add(configuration.buildPlayer);
+            args.add(configuration.buildPlayer + configuration.buildStage);
         }
 
         if (!configuration.executeMethod.equals("")) {

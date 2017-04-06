@@ -153,19 +153,6 @@
 
 <tr>
     <th>
-        <label for="argument.execute_method">Execute method: </label>
-    </th>
-    <td>
-        <props:textProperty name="argument.execute_method" style="width:32em;"/>
-        <span class="error" id="error_argument.execute_method"></span>
-        <span class="smallNote">
-             Execute the static method as soon as Unity is started and the project folder has been opened.
-        </span>
-    </td>
-</tr>
-
-<tr>
-    <th>
         <label for="argument.log_ignore">Enable Log Ignore: </label>
     </th>
     <td>
