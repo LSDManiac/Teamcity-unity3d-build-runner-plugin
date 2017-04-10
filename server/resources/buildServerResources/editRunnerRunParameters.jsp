@@ -64,6 +64,8 @@
 
     <props:selectSectionPropertyContent value="BuildScript.BuildOSXUni" caption="OSX (Universal) Player"/>
 
+    <props:selectSectionPropertyContent value="BuildScript.BuildStandalone" caption="Windows standalone" />
+
     <props:selectSectionPropertyContent value="BuildScript.BuildWebPlayer" caption="Web Player" />
     <props:selectSectionPropertyContent value="BuildScript.BuildWebGL" caption="Web GL" />
 </props:selectSectionProperty>

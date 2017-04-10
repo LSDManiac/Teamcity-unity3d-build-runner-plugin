@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="055ba325-7ef8-4b7e-bc80-c694b6730240" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java" afterPath="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerConfiguration.java" afterPath="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/unityRunner/server/UnityRunnerRunType.java" afterPath="$PROJECT_DIR$/server/src/unityRunner/server/UnityRunnerRunType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp" afterPath="$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp" />
     </list>
     <ignored path="unity_runner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="UnityRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="77" column="42" lean-forward="true" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
+            <state relative-caret-position="357">
+              <caret line="67" column="52" lean-forward="true" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -45,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnityRunnerConfiguration.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UnityRunnerConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="212" column="48" lean-forward="false" selection-start-line="212" selection-start-column="48" selection-end-line="212" selection-end-column="48" />
+            <state relative-caret-position="380">
+              <caret line="204" column="66" lean-forward="true" selection-start-line="204" selection-start-column="66" selection-end-line="204" selection-end-column="66" />
               <folding>
                 <element signature="e#8145#8146#0" expanded="true" />
                 <element signature="e#8197#8198#0" expanded="true" />
@@ -100,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editRunnerRunParameters.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="editRunnerRunParameters.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="56" />
+            <state relative-caret-position="405">
+              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,8 +111,8 @@
       <file leaf-file-name="viewRunnerRunParameters.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/resources/buildServerResources/viewRunnerRunParameters.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="29" column="71" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="71" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -184,12 +182,12 @@
         <option value="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerBuildServiceFactory.java" />
         <option value="$PROJECT_DIR$/unityrunner.xml" />
         <option value="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerBuildService.java" />
-        <option value="$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp" />
         <option value="$PROJECT_DIR$/server/resources/buildServerResources/viewRunnerRunParameters.jsp" />
         <option value="$PROJECT_DIR$/common/src/unityRunner/common/PluginConstants.java" />
         <option value="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java" />
         <option value="$PROJECT_DIR$/server/src/unityRunner/server/UnityRunnerRunType.java" />
         <option value="$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerConfiguration.java" />
+        <option value="$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp" />
       </list>
     </option>
   </component>
@@ -1088,30 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="77" column="42" lean-forward="true" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/resources/buildServerResources/viewRunnerRunParameters.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="29" column="71" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/unityRunner/server/UnityRunnerRunType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -1156,12 +1130,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunnerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="212" column="48" lean-forward="false" selection-start-line="212" selection-start-column="48" selection-end-line="212" selection-end-column="48" />
+        <state relative-caret-position="380">
+          <caret line="204" column="66" lean-forward="true" selection-start-line="204" selection-start-column="66" selection-end-line="204" selection-end-column="66" />
           <folding>
             <element signature="e#8145#8146#0" expanded="true" />
             <element signature="e#8197#8198#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/unityRunner/agent/UnityRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="67" column="52" lean-forward="true" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/resources/buildServerResources/viewRunnerRunParameters.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/resources/buildServerResources/editRunnerRunParameters.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
